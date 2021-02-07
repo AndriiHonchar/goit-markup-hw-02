@@ -9,7 +9,6 @@
   --color-grey: #757575;
   --color-blue: #2196f3;
   --back-grey-blue: #f5f4fa;
-  --back-white: #e5e5e5;
 }
 
 ul {
@@ -21,11 +20,8 @@ a {
 }
 
 /* заливка фона */
-.section {
-  background-color: var(--back-white);
-}
 
-.section .team {
+.section.team {
   background-color: var(--back-grey-blue);
 }
 

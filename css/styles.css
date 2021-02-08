@@ -9,6 +9,12 @@
   --color-grey: #757575;
   --color-blue: #2196f3;
   --back-grey-blue: #f5f4fa;
+  --footer-color: #2f303a;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
 }
 
 ul {
@@ -26,7 +32,7 @@ a {
 }
 
 footer {
-  background-color: #2f303a;
+  background-color: var(--footer-color);
 }
 
 /* студия */
@@ -46,8 +52,6 @@ footer {
 }
 
 .nav-list a {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
@@ -73,13 +77,13 @@ footer {
 }
 
 /* main */
+/* hero */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--footer-color);
 }
 
 .hero-title {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -87,8 +91,6 @@ footer {
 }
 
 .hero .link {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -102,27 +104,31 @@ footer {
   background-color: var(--color-white);
 }
 
+.advantages .title {
+  display: none;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
 .advantages-text {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: var(--color-grey);
 }
 
 .section .title {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
   color: var(--color-graphite);
 }
 
 .team-name {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
@@ -130,8 +136,6 @@ footer {
 }
 
 .team-post {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
@@ -140,9 +144,7 @@ footer {
 
 /* footer */
 .adress {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: var(--color-white);
@@ -164,8 +166,6 @@ footer {
 /* main */
 
 .button {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -180,8 +180,6 @@ footer {
 }
 
 .project-list .title {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -189,10 +187,12 @@ footer {
 }
 
 .project-list .text {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
   color: var(--color-grey);
+}
+
+.product .title-up {
+  display: none;
 }
